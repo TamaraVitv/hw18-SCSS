@@ -1,1 +1,1 @@
-# hw-scaled-vector-graphics-Freehand
+# hw-responsive-web-design

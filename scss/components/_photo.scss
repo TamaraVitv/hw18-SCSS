@@ -1,5 +1,4 @@
 .photo {
-  width: 50vw;
-  margin: 0 auto;
-  @include padding-hack(50%, contain, false);
+  width: 400px;
+  @include padding-hack(50%, contain, true);
 }

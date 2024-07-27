@@ -1,0 +1,16 @@
+.button {
+  padding: 5px 10px 5px 10px;
+
+  &--primary {
+    display: inline-flex;
+    background-color: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--primary-color);
+    text-decoration: overline;
+  }
+
+  &--secondary {
+    background-color: lightblue;
+    color: black;
+  }
+}

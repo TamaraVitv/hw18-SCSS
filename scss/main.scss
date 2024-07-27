@@ -2,23 +2,10 @@
 @import "./mixins";
 @import "./common";
 @import "./components/photo";
+@import "./components/header";
+@import "./components/divider";
+@import "./components/button";
 
 button input {
   box-sizing: border-box;
-}
-.button {
-  display: inline-flex;
-  background-color: blue;
-  color: white;
-  border: none;
-
-  &--secondary {
-    background-color: lightblue;
-    color: black;
-  }
-}
-body {
-  h1 {
-    color: blue;
-  }
 }

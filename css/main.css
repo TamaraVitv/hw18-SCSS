@@ -1,1 +1,65 @@
-*{padding:0;margin:0}*,*::after,*::before{box-sizing:border-box}button{cursor:pointer}button,input,select,textarea{font-family:inherit}.photo{width:50vw;margin:0 auto;position:relative;height:0;padding-bottom:50%}.photo img{position:absolute;left:0;right:0;top:0;bottom:0;width:100%;height:100%;object-position:center;object-fit:contain}button input{box-sizing:border-box}.button{display:inline-flex;background-color:blue;color:#fff;border:none}.button--secondary{background-color:#add8e6;color:#000}body h1{color:blue}/*# sourceMappingURL=main.css.map */
+:root {
+  --primary-color: #ffcc00;
+  --text-primary: #666666;
+  --text-secondary: #333333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.photo {
+  width: 400px;
+  position: relative;
+  height: 0;
+  padding-bottom: 50%;
+  background-color: rgba(255, 0, 0, 0.555);
+}
+.photo img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: contain;
+  object-fit: contain;
+}
+
+.button {
+  padding: 5px 10px 5px 10px;
+}
+.button--primary {
+  display: inline-flex;
+  background-color: transparent;
+  color: var(--text-secondary);
+  border: 1px solid var(--primary-color);
+  text-decoration: overline;
+}
+.button--secondary {
+  background-color: lightblue;
+  color: black;
+}
+
+button input {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */

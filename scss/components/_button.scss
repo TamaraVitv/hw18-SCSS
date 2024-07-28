@@ -1,12 +1,19 @@
 .button {
-  padding: 5px 10px 5px 10px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px; /* 100% */
+  display: inline-flex;
+  align-items: center;
 
   &--primary {
-    display: inline-flex;
     background-color: transparent;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     border: 1px solid var(--primary-color);
-    text-decoration: overline;
   }
 
   &--secondary {

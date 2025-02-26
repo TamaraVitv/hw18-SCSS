@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  &,
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+h1 {
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 66px; /* 110% */
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+h3 {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+  text-transform: capitalize;
+}
+
+h4 {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+}
+
+p {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  text-transform: uppercase;
+}
+
+body {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.header__container > p {
+  color: var(--text-tertiary);
+}
+
+.header__container > h1 {
+  color: var(--primary-color);
+}
